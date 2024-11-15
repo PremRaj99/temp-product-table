@@ -3,13 +3,25 @@ table tr td
     padding: 5px;;
 }
 
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
 }
 
 #search {
-    margin: 20px auto;
+    margin-block: 20px;
     width: 80%;
 }
 

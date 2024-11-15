@@ -63,6 +63,12 @@ const temp = [
 
 const tbody = document.querySelector("tbody");
 
+const refresh = () => {
+  search.value = "";
+  tbody.innerHTML = "";
+  fetchdata();
+};
+
 function fetchdata(arr = temp) {
   for (let i = 0; i < arr.length; i++) {
     tbody.innerHTML += `
