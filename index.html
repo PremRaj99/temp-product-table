@@ -7,9 +7,13 @@
     <title>Order</title>
   </head>
   <body>
-    <input type="text" id="serach" placeholder="Search something here...">
-    <hr>
-    <table border="2px" style="padding: 4px;">
+    <h1>Product</h1>
+    <div class="">
+      <input type="text" id="search" placeholder="Search something here..." />
+      <button id="searchBtn">Search</button>
+    </div>
+    <hr />
+    <table border="2px" style="padding: 4px">
       <thead>
         <tr>
           <th>Id</th>
@@ -22,31 +26,23 @@
       <tbody></tbody>
     </table>
 
-    <hr>
-    <form action="">
-        <h1>Add product</h1>
-        <label for="">Id</label>
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        <input type="text" name="" id="">
-        <br>
-        <label for="">Name</label>
-        &nbsp;
-        <input type="text" name="" id="">
-        <br>
-        <label for="">Price</label>
-        &nbsp;
-        &nbsp;
-        <input type="text" name="" id="">
-        <br>
-        <br>
-        
-        <button>Add</button>
-    </form>
+    <hr />
+    <div>
+      <h1>Add product</h1>
+      <br />
+      <label for="">Name</label>
+      &nbsp;
+      <input type="text" name="name" id="name" />
+      <br />
+      <label for="">Price</label>
+      &nbsp; &nbsp;
+      <input type="text" name="price" id="price" />
+      <br />
+      <br />
+
+      <button id="add">Add</button>
+    </div>
 
     <script src="js/script.js"></script>
   </body>
 </html>
-
